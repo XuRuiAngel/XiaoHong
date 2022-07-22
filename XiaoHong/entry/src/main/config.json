@@ -12,15 +12,18 @@
     "package": "com.example.entry",
     "name": ".entry",
     "mainAbility": ".MainAbility",
-    "deviceType": ["phone"],
+    "deviceType": [
+      "phone"
+    ],
     "distro": {
       "deliveryWithInstall": true,
       "moduleName": "entry",
       "moduleType": "entry",
       "installationFree": false
     },
-    "abilities": [{
-                "skills": [
+    "abilities": [
+      {
+        "skills": [
           {
             "entities": [
               "entity.system.home"
@@ -39,9 +42,10 @@
         "description": "$string:MainAbility_desc",
         "label": "$string:MainAbility_label",
         "type": "page",
-          "visible": true,
+        "visible": true,
         "launchType": "standard"
-      },{
+      },
+      {
         "name": ".FormAbility",
         "srcPath": "FormAbility",
         "description": "$string:form_FormAbility_desc",
@@ -61,13 +65,17 @@
             "colorMode": "auto",
             "type": "JS",
             "formVisibleNotify": true,
-            "supportDimensions": ["2*2"],
+            "supportDimensions": [
+              "2*2"
+            ],
             "updateEnabled": true,
             "updateDuration": 1
           }
         ]
-      }],
-    "js": [{
+      }
+    ],
+    "js": [
+      {
         "mode": {
           "syntax": "ets",
           "type": "pageAbility"
@@ -80,16 +88,18 @@
           "designWidth": 720,
           "autoDesignWidth": false
         }
-      },{
-    	  "name":"widget",
-    	  "pages": [
-    		"pages/index/index"
-    	  ],
-    	  "window": {
-    	    	"designWidth": 720,
-            	"autoDesignWidth":true
-           },
-    	  "type": "form"
-    	}]
+      },
+      {
+        "name": "widget",
+        "pages": [
+          "pages/index/index"
+        ],
+        "window": {
+          "designWidth": 720,
+          "autoDesignWidth": true
+        },
+        "type": "form"
+      }
+    ]
   }
 }

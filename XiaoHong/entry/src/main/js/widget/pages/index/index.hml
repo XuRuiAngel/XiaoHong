@@ -7,5 +7,10 @@
             <text class="title">{{ $t('strings.title_immersive') }}</text>
             <text class="detail_text" onclick="routerEvent">{{ $t('strings.detail_immersive') }}</text>
         </div>
+
+
+
+
+        
     </stack>
 </div>

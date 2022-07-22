@@ -1,15 +1,15 @@
 {
-    "data": {
-        "title": "Title",
-        "detail": "Text"
-    },
-    "actions": {
-        "routerEvent": {
-            "action": "router",
-            "abilityName": "com.example.xiaohong.MainAbility",
-            "params": {
-                "message": "add detail"
-            }
-        }
+  "data": {
+    "title": "Title",
+    "detail": "Text"
+  },
+  "actions": {
+    "routerEvent": {
+      "action": "router",
+      "abilityName": "com.example.xiaohong.MainAbility",
+      "params": {
+        "message": "add detail"
+      }
     }
+  }
 }

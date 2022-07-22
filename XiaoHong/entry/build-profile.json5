@@ -5,13 +5,11 @@
   },
   "targets": [
     {
-      "name": "default"
-      ,
-      "runtimeOS":"HarmonyOS"
-    }
-    ,
+      "name": "default",
+      "runtimeOS": "HarmonyOS"
+    },
     {
-    "name": "ohosTest",
+      "name": "ohosTest",
     }
   ]
 }

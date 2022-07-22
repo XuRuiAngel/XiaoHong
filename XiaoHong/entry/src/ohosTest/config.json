@@ -13,7 +13,9 @@
     "name": ".entry_test",
     "mainAbility": ".TestAbility",
     "srcPath": "",
-    "deviceType": ["phone"],
+    "deviceType": [
+      "phone"
+    ],
     "distro": {
       "deliveryWithInstall": true,
       "moduleName": "entry_test",
